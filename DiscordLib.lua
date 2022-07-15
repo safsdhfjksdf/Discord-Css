@@ -2546,7 +2546,7 @@ function DiscordLib:Window(text)
 				CurrentSelectedText.Size = UDim2.new(0, 193, 0, 32)
 				CurrentSelectedText.Font = Enum.Font.Gotham
 				
-				CurrentSelectedText.Text = starter
+				CurrentSelectedText.Text = tostring(starter)
 				
 				CurrentSelectedText.TextColor3 = Color3.fromRGB(212, 212, 212)
 				CurrentSelectedText.TextSize = 14.000
